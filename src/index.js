@@ -4,6 +4,9 @@ import './index.css';
 import AppProfile from './AppProfile';
 import reportWebVitals from './reportWebVitals';
 
+/* 
+ *  Git 배포 -> $ npm run deploy 입력
+ */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
