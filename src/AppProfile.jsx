@@ -4,8 +4,13 @@ import "./App.css";
 import Avatar from "./components/Avatar";
 
 export default function AppProfile() {
+  // const handleClick = (event) =>{
+  //   console.log(event);
+  //     alert('버튼이 클릭됨');
+  // }
   return (
     <>
+    {/* { <button onClick={handleClick}>버튼</button>}  */}
       <Avatar
         image="https://avatars.githubusercontent.com/u/87633110?v=4"
         isNew={true}

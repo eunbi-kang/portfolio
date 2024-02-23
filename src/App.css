@@ -1,5 +1,5 @@
 .orange {
-  color : orange;
+  color: orange;
 }
 
 .profile {
@@ -9,10 +9,10 @@
   padding: 1rem;
   background-color: #EBEBEB;
   border-radius: 20px;
-  box-shadow: 13px 11px 10px -1px rgba(0,0,0,0.43);
-  -webkit-box-shadow: 13px 11px 10px -1px rgba(0,0,0,0.43);
+  box-shadow: 13px 11px 10px -1px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 13px 11px 10px -1px rgba(0, 0, 0, 0.43);
   margin-bottom: 1rem;
-  -moz-box-shadow: 13px 11px 10px -1px rgba(0,0,0,0.43);
+  -moz-box-shadow: 13px 11px 10px -1px rgba(0, 0, 0, 0.43);
 }
 
 .photo {
@@ -37,5 +37,40 @@
   border-radius: 0.5rem;
   text-transform: uppercase;
   font-weight: bold;
+}
 
+/* Counter */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(215, 127, 12);
+}
+
+.counter:hover {
+  background-color: rgb(246, 243, 197);
+}
+
+.number{
+  font-size: 7rem;
+}
+
+.button {
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: rgb(215, 127, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(215, 127, 12, 1) 0%,
+    rgba(253, 220, 29, 1) 100%)
 }
