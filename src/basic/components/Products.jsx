@@ -6,13 +6,8 @@ export default function Products() {
   const [checked, setChecked] = useState(false);
   const handleChange =() => setChecked((prev)=> !prev);
   // //cors
-
   useEffect(()=> {
-    fetch(`data/${checked ? 'sale_': ''}products.json`, {
-      headers: {
-        Accept: "application/json"
-      }
-    })
+    fetch(`portfolio/data/${checked ? 'sale_': ''}products.json`)
     .then((res)=> res.json()) 
     .then((data) => {
       console.log("🔥뜨끈한 데이터를 네트워크에서 받아옴");
@@ -22,6 +17,23 @@ export default function Products() {
 	    console.log('🧹깨끗하게 청소하는 일들을 합니다.')
     }
   }, [checked]);
+
+
+  // useEffect(()=> {
+  //   fetch(`data/${checked ? 'sale_': ''}products.json`, {
+  //     headers: {
+  //       Accept: "application/json"
+  //     }
+  //   })
+  //   .then((res)=> res.json()) 
+  //   .then((data) => {
+  //     console.log("🔥뜨끈한 데이터를 네트워크에서 받아옴");
+  //     setProducts(data);
+  //   });
+  //   return () => {
+	//     console.log('🧹깨끗하게 청소하는 일들을 합니다.')
+  //   }
+  // }, [checked]);
 
   return (
     <>

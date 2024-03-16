@@ -1,7 +1,7 @@
 import React from "react";
 import Profile from "./components/Profile";
 import "./App.css";
-import Avatar from "./components/Avatar";
+import Avatar from "./components/Avatar"
 
 export default function AppProfile() {
   // const handleClick = (event) =>{
