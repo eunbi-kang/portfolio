@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*  ** AppMentor.jsx - CSS File **  */
+.mentor {
+  padding: 2rem 0.5rem;
+  background-color: #BDBDBD33;
+}
