@@ -7,14 +7,27 @@ export default function Products() {
   const handleChange =() => setChecked((prev)=> !prev);
   // //cors
   useEffect(()=> {
-    fetch(`portfolio/data/${checked ? 'sale_': ''}products.json`)
-    .then((res)=> res.json()) 
-    .then((data) => {
-      console.log("🔥뜨끈한 데이터를 네트워크에서 받아옴");
-      setProducts(data);
-    });
-    return () => {
-	    console.log('🧹깨끗하게 청소하는 일들을 합니다.')
+    console.log(process.env.NODE_ENV);
+    if(process.env.NODE_ENV === 'development') {
+      fetch(`portfolio/data/${checked ? 'sale_': ''}products.json`)
+      .then((res)=> res.json()) 
+      .then((data) => {
+        console.log("🔥뜨끈한 데이터를 네트워크에서 받아옴");
+        setProducts(data);
+      });
+      return () => {
+        console.log('🧹깨끗하게 청소하는 일들을 합니다.')
+      }
+    } else {
+      fetch(`data/${checked ? 'sale_': ''}products.json`)
+      .then((res)=> res.json()) 
+      .then((data) => {
+        console.log("🔥뜨끈한 데이터를 네트워크에서 받아옴");
+        setProducts(data);
+      });
+      return () => {
+        console.log('🧹깨끗하게 청소하는 일들을 합니다.')
+      }
     }
   }, [checked]);
 
