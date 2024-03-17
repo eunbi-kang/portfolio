@@ -5,7 +5,7 @@ import AppProfile from './basic/AppProfile';
 import AppCounter from './basic/AppCounter';
 import AppProducts from './basic/AppProducts';
 // import AppXY from './AppXY';
-import AppMentor from './AppMentor';
+import AppMentor from './AppMentors';
 import reportWebVitals from './reportWebVitals';
 
 /* 
