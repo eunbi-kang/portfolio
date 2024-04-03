@@ -48,7 +48,7 @@ export default function AppMentor() {
 
 const initialPerson = {
     name: "코비",
-    title: "족발자",
+    title: "개발자",
     mentors: [
       {
         name: "비야",
@@ -61,6 +61,14 @@ const initialPerson = {
       {
         name: "코비",
         title: "강아지",
+      },
+      {
+        name: "먼비",
+        title: "고양이",
+      },
+      {
+        name: "턱비",
+        title: "턱시도 신사",
       },
     ],
   }
