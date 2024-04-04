@@ -5,9 +5,9 @@ import AppProfile from './basic/AppProfile';
 import AppCounter from './basic/AppCounter';
 import AppProducts from './basic/AppProducts';
 // import AppXY from './AppXY';
-import AppMentor from './AppMentors';
 import reportWebVitals from './reportWebVitals';
 import AppmentorsImmer from './AppmentorsImmer';
+import AppForm from './basic/AppForm';
 
 /* 
  *  Git 배포 -> $ npm run deploy 입력
@@ -15,8 +15,9 @@ import AppmentorsImmer from './AppmentorsImmer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppmentorsImmer />
+    <AppForm />
     {/* <AppXY /> */}
+    <AppmentorsImmer />
     <AppProducts />
     <AppCounter />
     <AppProfile />
