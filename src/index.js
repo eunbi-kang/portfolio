@@ -8,6 +8,7 @@ import AppProducts from './basic/AppProducts';
 import reportWebVitals from './reportWebVitals';
 import AppmentorsImmer from './AppmentorsImmer';
 import AppForm from './basic/AppForm';
+import AppWrap from './AppWrap';
 
 /* 
  *  Git 배포 -> $ npm run deploy 입력
@@ -15,6 +16,7 @@ import AppForm from './basic/AppForm';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <AppWrap />
     <AppForm />
     {/* <AppXY /> */}
     <AppmentorsImmer />
