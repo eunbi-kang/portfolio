@@ -6,12 +6,12 @@ import AppCounter from './basic/AppCounter';
 import AppProducts from './basic/AppProducts';
 // import AppXY from './AppXY';
 import reportWebVitals from './reportWebVitals';
-import AppmentorsImmer from './AppmentorsImmer';
+import AppmentorsImmer from './advanced/AppmentorsImmer';
 import AppForm from './basic/AppForm';
-import AppWrap from './AppWrap';
-import AppCard from './AppCard';
-import AppTheme from './AppTheme';
-import AppMentorsButton from './AppMentorsButton';
+import AppWrap from './advanced/AppWrap';
+import AppCard from './advanced/AppCard';
+import AppTheme from './advanced/AppTheme';
+import AppMentorsButton from './advanced/AppMentorsButton';
 // import AppClass from './AppClass';
 
 /* 
