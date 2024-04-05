@@ -47,6 +47,7 @@ export default function AppmentorsImmer() {
       <h1>
         {person.name}는 {person.title}
       </h1>
+      <article>😍 Immer test</article>
       <p>{person.name}의 멘토는:</p>
       <ul>
         {person.mentors.map((mentor, index) => (

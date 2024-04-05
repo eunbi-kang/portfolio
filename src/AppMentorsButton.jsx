@@ -26,6 +26,7 @@ export default function AppMentorsButton() {
       <h1>
         {person.name}는 {person.title}
       </h1>
+      <article>😍😍😍 Performance test 😍😍😍</article>
       <p>{person.name}의 멘토는:</p>
       <ul>
         {person.mentors.map((mentor, index) => (

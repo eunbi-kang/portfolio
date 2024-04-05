@@ -19,6 +19,7 @@ import AppMentorsButton from './AppMentorsButton';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <AppProducts />
     <AppMentorsButton />
     <AppTheme />
     <AppCard />
@@ -26,7 +27,6 @@ root.render(
     <AppForm />
     {/* <AppXY /> */}
     <AppmentorsImmer />
-    <AppProducts />
     <AppCounter />
     <AppProfile />
   </React.StrictMode>
