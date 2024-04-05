@@ -74,7 +74,7 @@ function calculateSomething() {
 
 const initialPerson = {
   name: "코비",
-  title: "개발자",
+  title: "닭발자",
   mentors: [
     {
       name: "비야",

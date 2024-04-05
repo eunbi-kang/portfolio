@@ -12,6 +12,7 @@ import AppWrap from './AppWrap';
 import AppCard from './AppCard';
 import AppTheme from './AppTheme';
 import AppMentorsButton from './AppMentorsButton';
+// import AppClass from './AppClass';
 
 /* 
  *  Git 배포 -> $ npm run deploy 입력
@@ -19,6 +20,7 @@ import AppMentorsButton from './AppMentorsButton';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <AppClass /> */}
     <AppProducts />
     <AppMentorsButton />
     <AppTheme />
